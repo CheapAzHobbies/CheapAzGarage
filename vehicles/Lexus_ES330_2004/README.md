@@ -29,7 +29,7 @@ Estimated mileage per order is linearly interpolated between the Feb 2024 baseli
 
 ## Interval Checklists
 
-Maintenance follows the Lexus factory owner's-manual schedule. One file per ~3,000-mile checkpoint: standard maintenance items plus what's actually confirmed done. See [`intervals/`](intervals). The exact manual task list per interval (what's due at 5K vs. 15K vs. 30K, etc.) hasn't been transcribed in yet — the checklists currently list generic items (oil, rotation, filters, fluids) plus whatever's confirmed from real orders.
+Maintenance follows the Lexus factory owner's-manual schedule, with one deliberate deviation: **spark plugs get changed every 100K miles**, not on the handbook's default interval. One file per ~3,000-mile checkpoint: standard maintenance items plus what's actually confirmed done. See [`intervals/`](intervals). The exact manual task list per interval (what's due at 5K vs. 15K vs. 30K, etc.) hasn't been transcribed in yet — the checklists currently list generic items (oil, rotation, filters, fluids) plus whatever's confirmed from real orders.
 
 | Mileage (est.) | Date | File |
 |---|---|---|
