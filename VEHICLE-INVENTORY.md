@@ -7,7 +7,7 @@ Master list of every vehicle the family has owned or is building. Grouped by sta
 | Vehicle | Owner | VIN | Plate / ID | Notes | Folder |
 |---|---|---|---|---|---|
 | 2004 Lexus ES330 (3.3L V6) | Bao | JTHBA30G245040608 | Odometer ID CB01242 | Silver, 145K+ mi | [vehicles/Lexus_ES330_2004](vehicles/Lexus_ES330_2004) |
-| 2018 Ford Transit 150 (3.5L V6 Turbo) | Bao | 1FMZK1CM6JKA57729 | TBD | Year/engine confirmed via RockAuto order | [vehicles/Ford_Transit_150_2018](vehicles/Ford_Transit_150_2018) |
+| 2018 Ford Transit 150 (engine ⚠️) | Bao | 1FMZK1CM6JKA57729 | TBD | Year confirmed; engine conflicting across orders (3.5L Turbo vs 3.7L) — see vehicle README | [vehicles/Ford_Transit_150_2018](vehicles/Ford_Transit_150_2018) |
 | 2003 Toyota Sienna (3.0L V6) | Family | 4T3ZF13C33U513888 | CA67184 | Vanilla Gold, "Sienna Symphony" trim; year/engine confirmed via RockAuto order | [vehicles/Toyota_Sienna_2003](vehicles/Toyota_Sienna_2003) |
 
 ## In-Progress Projects
@@ -29,3 +29,4 @@ Master list of every vehicle the family has owned or is building. Grouped by sta
 - **~~Duplicate VIN~~ — resolved:** the Sienna and Odyssey EV project were both listed with VIN `4T3ZF13C33U513888`. `4T3` is Toyota's manufacturer prefix, so it's genuinely the Sienna's VIN (confirmed by a RockAuto order matching "2003 Toyota Sienna"). It was mistakenly copied onto the Odyssey listing — that vehicle's VIN is now marked TBD until the real one is captured.
 - **Short plate:** the Odyssey's plate (`28436`) is only 5 characters, shorter than a standard CA plate — may be partial or incomplete. Confirm the full plate.
 - **Missing plates:** Lexus, Ford Transit, and the 2011 Accord don't have plates recorded yet — add them when known.
+- **Ford Transit engine conflict:** two RockAuto orders list two different engines for the same VIN — "3.5L V6 Turbocharged" (2025-06-16 order) vs. "3.7L V6" (2025-10-19 order). Both are real Transit 150 options, so it's not an obvious typo. Confirm from the door jamb sticker or a VIN decode which one this van actually has.

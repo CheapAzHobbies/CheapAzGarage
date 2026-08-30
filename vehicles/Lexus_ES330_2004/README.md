@@ -12,8 +12,9 @@ Daily driver, high-mileage. Documented from ~130K to 145K+ miles.
 | 2024-02-21 | 265305047 | ~130K | 3× catalytic converters, 3× O2 sensors, 6× spark plugs | $1,299.45 | [parts/](parts) — `ap_eastern_catalytic_converter_*`, `denso_o2_sensor_*`, `denso_spark_plug_3297.md` |
 | 2025-03-08 | 302329365 | ~136K | Suspension: 2× KYB shock/strut, 2× strut mount, lift support | $289.93 | [parts/](parts) — `kyb_shock_strut_*`, `stabilus_lift_support_3b168774.md` |
 | 2025-06-13 | TBD | ~138K | Brake pads/rotors, transmission fluid, cabin + engine air filter, oil filter | $315.73 | [parts/](parts) — `aisin_transmission_fluid_atf0t4.md`, `akebono_brake_pad_*`, `bosch_cabin_air_filter_6056c.md`, `centric_rotor_*`, `denso_air_filter_1433003.md`, `mobil_oil_filter_m1102a.md` |
+| 2026-08-22 | 357616499 | ~145K | Transmission fluid top-off (2× Aisin ATF0T4) | $22.15 | [aisin_transmission_fluid_atf0t4_2026-08-22.md](parts/aisin_transmission_fluid_atf0t4_2026-08-22.md) |
 
-**Confirmed RockAuto total across these 4 orders: $2,087.89.** A transmission-fluid top-off (~$22.15) was mentioned in earlier notes but no receipt has been located yet — treat as unverified until a confirmation email turns up.
+**Confirmed RockAuto total across these 5 orders: $2,110.04.** All five services originally mentioned (starter, cats/O2, suspension, brakes/trans fluid, trans fluid top-off) now have matching receipts.
 
 Estimated mileage per order is linearly interpolated between the Feb 2024 baseline (~130K) and the current ~145K (Aug 2026) — **not** actual odometer readings at time of purchase. Replace with real readings if you have them.
 
@@ -30,7 +31,7 @@ One file per ~3,000-mile checkpoint: standard maintenance items plus what's actu
 
 ## Parts
 
-One file per part purchased — see [`parts/`](parts). 20 parts logged across 4 confirmed orders.
+One file per part purchased — see [`parts/`](parts). 21 parts logged across 5 confirmed orders.
 
 ## Known Issues & Diagnostics
 
@@ -41,7 +42,7 @@ One file per part purchased — see [`parts/`](parts). 20 parts logged across 4 
 ## Cost Analysis
 
 - ~15,000 miles documented (130K → 145K+).
-- $2,087.89 confirmed RockAuto spend ÷ ~15K mi ≈ **$139 / 1,000 miles**.
+- $2,110.04 confirmed RockAuto spend ÷ ~15K mi ≈ **$141 / 1,000 miles**.
 
 ## Parts Sourcing
 
