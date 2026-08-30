@@ -12,7 +12,7 @@ Daily driver, high-mileage. Documented from ~130K to 145K+ miles.
 | 2024-02-21 | 265305047 | RockAuto | ~130K | 3× catalytic converters, 3× O2 sensors, 6× spark plugs | $1,299.45 | [parts/](parts) — `ap_eastern_catalytic_converter_*`, `denso_o2_sensor_*`, `denso_spark_plug_3297.md` |
 | 2025-03-08 | 302329365 | RockAuto | ~136K | Suspension: 2× KYB shock/strut, 2× strut mount, lift support | $289.93 | [parts/](parts) — `kyb_shock_strut_*`, `stabilus_lift_support_3b168774.md` |
 | 2025-06-13 | TBD | RockAuto | ~138K | Brake pads/rotors, transmission fluid, cabin + engine air filter, oil filter | $315.73 | [parts/](parts) — `aisin_transmission_fluid_atf0t4.md`, `akebono_brake_pad_*`, `bosch_cabin_air_filter_6056c.md`, `centric_rotor_*`, `denso_air_filter_1433003.md`, `mobil_oil_filter_m1102a.md` |
-| 2026-08-22 to 2026-08-30 | 357616499 (fluid) + eBay (pan/gasket) | RockAuto + eBay | ~145K | **Transmission pan service:** pan + gasket replaced, fluid changed (2× Aisin ATF0T4), filter replaced (part TBD) | $103.53 | [aisin_transmission_fluid_atf0t4_2026-08-22.md](parts/aisin_transmission_fluid_atf0t4_2026-08-22.md), [aisin_transmission_oil_pan.md](parts/aisin_transmission_oil_pan.md), [lexus_transmission_pan_gasket.md](parts/lexus_transmission_pan_gasket.md) |
+| 2026-08-22 to 2026-08-30 | 357616499 (fluid) + eBay (pan/gasket) | RockAuto + eBay + Dad (gifted) | ~145K | **Transmission pan service:** pan + gasket replaced, fluid changed (4 qt Aisin ATF0T4: 2 purchased + 2 gifted), filter replaced (part TBD) | $103.53 | [aisin_transmission_fluid_atf0t4_2026-08-22.md](parts/aisin_transmission_fluid_atf0t4_2026-08-22.md), [aisin_transmission_fluid_atf0t4_gifted.md](parts/aisin_transmission_fluid_atf0t4_gifted.md), [aisin_transmission_oil_pan.md](parts/aisin_transmission_oil_pan.md), [lexus_transmission_pan_gasket.md](parts/lexus_transmission_pan_gasket.md) |
 
 **Confirmed spend across these 5 services: $2,191.42** ($2,110.04 RockAuto + $81.38 eBay). All five services originally mentioned (starter, cats/O2, suspension, brakes/trans fluid, trans fluid) now have matching receipts — and the last one turned out to be a full pan-drop service, not a simple top-off.
 
@@ -38,7 +38,7 @@ One file per ~3,000-mile checkpoint: standard maintenance items plus what's actu
 
 ## Parts
 
-One file per part purchased — see [`parts/`](parts). 25 parts logged across 5 services (RockAuto + eBay).
+One file per part (purchased or gifted) — see [`parts/`](parts). 26 parts logged across 5 services (RockAuto + eBay + one gifted item from Dad).
 
 ## Known Issues & Diagnostics
 
