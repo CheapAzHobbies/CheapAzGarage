@@ -10,8 +10,8 @@ Model year confirmed via RockAuto orders, correcting the earlier "~2020" placeho
 
 | Date | Order # | Service | Order total | Notes |
 |---|---|---|---|---|
-| 2025-06-16 | TBD (not on receipt) | Rotor & brake pad kit (Power Stop KOE7150) | Shared order, $320.56 total (Sienna + Transit combined) | See [parts/powerstop_rotor_brake_pad_kit_koe7150.md](parts/powerstop_rotor_brake_pad_kit_koe7150.md) |
-| 2025-10-19 | 326594955 | Rotor & brake pad kit (Power Stop KOE7145) | $132.78 | See [parts/powerstop_rotor_brake_pad_kit_koe7145.md](parts/powerstop_rotor_brake_pad_kit_koe7145.md) |
+| 2025-06-16 | TBD (not on receipt) | Rotor & brake pad kit (Power Stop KOE7150) | Shared order, $320.56 total (Sienna + Transit combined) | See [parts.md](parts.md) |
+| 2025-10-19 | 326594955 | Rotor & brake pad kit (Power Stop KOE7145) | $132.78 | See [parts.md](parts.md) |
 
 ## Service Intervals
 
@@ -19,7 +19,7 @@ TBD — no interval checklists yet for this vehicle. Ask to have them set up onc
 
 ## Parts
 
-See [`parts/`](parts).
+See [`parts.md`](parts.md).
 
 ## Known Issues & Diagnostics
 

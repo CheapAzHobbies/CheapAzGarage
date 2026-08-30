@@ -8,7 +8,7 @@ Family van, currently active. Year and engine confirmed via a RockAuto order (20
 
 | Date | Order # | Service | Order total | Notes |
 |---|---|---|---|---|
-| 2025-06-16 | TBD (not on receipt) | Rotor & brake pad kit (Power Stop KOE8920) | Shared order, $320.56 total (Sienna + Transit combined) | See [parts/powerstop_rotor_brake_pad_kit_koe8920.md](parts/powerstop_rotor_brake_pad_kit_koe8920.md) |
+| 2025-06-16 | TBD (not on receipt) | Rotor & brake pad kit (Power Stop KOE8920) | Shared order, $320.56 total (Sienna + Transit combined) | See [parts.md](parts.md) |
 
 ## Service Intervals
 
@@ -16,7 +16,7 @@ TBD — no interval checklists yet for this vehicle. Ask to have them set up onc
 
 ## Parts
 
-See [`parts/`](parts).
+See [`parts.md`](parts.md).
 
 ## Known Issues & Diagnostics
 

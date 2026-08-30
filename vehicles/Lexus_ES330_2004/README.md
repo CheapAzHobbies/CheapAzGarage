@@ -6,13 +6,15 @@ Daily driver, high-mileage. Maintained on the Lexus factory owner's-manual sched
 
 ## Repair History Log
 
-| Date | Order # | Source | Est. mileage | Service | Cost | Parts |
-|---|---|---|---|---|---|---|
-| TBD | TBD | RockAuto | ~130K | Starter motor replacement | $182.78 | [denso_starter_motor_2800345.md](parts/denso_starter_motor_2800345.md) |
-| 2024-02-21 | 265305047 | RockAuto | ~130K | 3× catalytic converters, 3× O2 sensors, 6× spark plugs | $1,299.45 | [parts/](parts) — `ap_eastern_catalytic_converter_*`, `denso_o2_sensor_*`, `denso_spark_plug_3297.md` |
-| 2025-03-08 | 302329365 | RockAuto | ~136K | Suspension: 2× KYB shock/strut, 2× strut mount, lift support | $289.93 | [parts/](parts) — `kyb_shock_strut_*`, `stabilus_lift_support_3b168774.md` |
-| 2025-06-13 | TBD | RockAuto | ~138K | Brake pads/rotors, transmission fluid, cabin + engine air filter, oil filter | $315.73 | [parts/](parts) — `aisin_transmission_fluid_atf0t4.md`, `akebono_brake_pad_*`, `bosch_cabin_air_filter_6056c.md`, `centric_rotor_*`, `denso_air_filter_1433003.md`, `mobil_oil_filter_m1102a.md` |
-| 2026-08-22 to 2026-08-30 | 357616499 (fluid) + eBay (pan/gasket/filter) | RockAuto + eBay + Dad (gifted) | ~145K | **Transmission pan service:** pan + gasket + filter (Azumi 3533008010) replaced, fluid changed (4 qt Aisin ATF0T4: 2 purchased + 2 gifted) | $127.51 | [aisin_transmission_fluid_atf0t4_2026-08-22.md](parts/aisin_transmission_fluid_atf0t4_2026-08-22.md), [aisin_transmission_fluid_atf0t4_gifted.md](parts/aisin_transmission_fluid_atf0t4_gifted.md), [aisin_transmission_oil_pan.md](parts/aisin_transmission_oil_pan.md), [lexus_transmission_pan_gasket.md](parts/lexus_transmission_pan_gasket.md), [azumi_transmission_filter_3533008010.md](parts/azumi_transmission_filter_3533008010.md) |
+| Date | Order # | Source | Est. mileage | Service | Cost |
+|---|---|---|---|---|---|
+| TBD | TBD | RockAuto | ~130K | Starter motor replacement | $182.78 |
+| 2024-02-21 | 265305047 | RockAuto | ~130K | 3× catalytic converters, 3× O2 sensors, 6× spark plugs | $1,299.45 |
+| 2025-03-08 | 302329365 | RockAuto | ~136K | Suspension: 2× KYB shock/strut, 2× strut mount, lift support | $289.93 |
+| 2025-06-13 | TBD | RockAuto | ~138K | Brake pads/rotors, transmission fluid, cabin + engine air filter, oil filter | $315.73 |
+| 2026-08-22 to 2026-08-30 | 357616499 (fluid) + eBay (pan/gasket/filter) | RockAuto + eBay + Dad (gifted) | ~145K | **Transmission pan service:** pan + gasket + filter (Azumi 3533008010) replaced, fluid changed (4 qt Aisin ATF0T4: 2 purchased + 2 gifted) | $127.51 |
+
+Full part-by-part breakdown (brand, part #, price, order/install dates, source): see [`parts.md`](parts.md).
 
 **Confirmed spend across these 5 services: $2,215.40** ($2,110.04 RockAuto + $105.36 eBay). All five services originally mentioned (starter, cats/O2, suspension, brakes/trans fluid, trans fluid) now have matching receipts — and the last one turned out to be a full pan-drop service, not a simple top-off.
 
@@ -20,8 +22,8 @@ Daily driver, high-mileage. Maintained on the Lexus factory owner's-manual sched
 
 | Part | Cost | Purchased | Notes |
 |---|---|---|---|
-| Front axle oil seal, passenger — 90311-40028 | $18.62 | 2026-07-05 (eBay) | [parts file](parts/toyota_front_axle_oil_seal_90311-40028.md) — vehicle assignment is a best guess, confirm |
-| Front axle oil seal, driver — 90311-50052 | $24.90 | 2026-07-05 (eBay) | [parts file](parts/toyota_lexus_front_axle_oil_seal_90311-50052.md) |
+| Front axle oil seal, passenger — 90311-40028 | $18.62 | 2026-07-05 (eBay) | Vehicle assignment is a best guess, confirm — see [`parts.md`](parts.md) |
+| Front axle oil seal, driver — 90311-50052 | $24.90 | 2026-07-05 (eBay) | See [`parts.md`](parts.md) |
 
 Estimated mileage per order is linearly interpolated between the Feb 2024 baseline (~130K) and the current ~145K (Aug 2026) — **not** actual odometer readings at time of purchase. Replace with real readings if you have them.
 
@@ -38,7 +40,7 @@ Maintenance follows the Lexus factory owner's-manual schedule. One file per ~3,0
 
 ## Parts
 
-One file per part (purchased or gifted) — see [`parts/`](parts). 27 parts logged across 5 services (RockAuto + eBay + one gifted item from Dad).
+27 parts logged across 5 services (RockAuto + eBay + one gifted item from Dad) — one table, see [`parts.md`](parts.md).
 
 ## Known Issues & Diagnostics
 
@@ -54,4 +56,4 @@ One file per part (purchased or gifted) — see [`parts/`](parts). 27 parts logg
 
 ## Parts Sourcing
 
-Mostly RockAuto; two recent jobs (transmission pan/gasket, front axle seals) sourced from eBay instead. No coupon codes noted on any of these orders.
+Mostly RockAuto; two recent jobs (transmission pan/gasket/filter, front axle seals) sourced from eBay instead. No coupon codes noted on any of these orders.

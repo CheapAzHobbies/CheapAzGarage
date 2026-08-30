@@ -28,7 +28,7 @@ Full details, VINs, and plates: [`VEHICLE-INVENTORY.md`](VEHICLE-INVENTORY.md).
 
 ```
 vehicles/<Make>_<Model>_<Year>/README.md    — overview, repair history log, cost analysis, known issues
-vehicles/<Make>_<Model>_<Year>/parts/       — one file per part purchased (brand, part #, price, order, install date)
+vehicles/<Make>_<Model>_<Year>/parts.md     — one table, every part purchased (brand, part #, price, order, install date)
 vehicles/<Make>_<Model>_<Year>/intervals/   — one file per ~3,000-mile checkpoint, task checklist with done/date
 archive/<Make>_<Model>_<Year>/README.md     — retired vehicle record (ID + final status only)
 ```

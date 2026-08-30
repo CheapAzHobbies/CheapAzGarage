@@ -8,24 +8,8 @@ Personal family repo, but keeping the format consistent makes it usable years fr
 
 ## Adding a repair
 
-1. Add a row to the vehicle's **Repair History Log** (date, order #, service, order total, link to the parts below).
-2. Add **one file per part** purchased in that order under `vehicles/<Vehicle>/parts/<brand>_<part-description>_<part-number>.md`. Template:
-
-   ```
-   | Field | Value |
-   |---|---|
-   | Part | ... |
-   | Brand | ... |
-   | Part # | ... |
-   | Qty | ... |
-   | Price | ... |
-   | Order date | ... |
-   | Order # | ... |
-   | Source | ... |
-   | Installed | (assume shortly after order date if the real install date isn't known — flag it as assumed) |
-   | Status | Installed |
-   ```
-
+1. Add a row to the vehicle's **Repair History Log** (date, order #, service, cost).
+2. Add a row per part to `vehicles/<Vehicle>/parts.md` — one table, columns: `Part | Brand | Part # | Qty | Price | Order Date | Order # | Source | Installed | Status | Notes`. If the real install date isn't known, assume shortly after the order date and flag it as assumed in Notes.
 3. If the vehicle has interval checklists (see below), add or update the relevant `intervals/<mileage>mi.md` file to mark the matching tasks done.
 
 ## Interval checklists
