@@ -2,7 +2,25 @@
 
 **Owner:** Bao · **VIN:** JTHBA30G245040608 · **Odometer ID:** CB01242 · **Engine:** 3.3L V6 · **Color:** Silver · **Mileage:** 145K+ mi (as of Aug 2026) · **Owned since:** ~60K mi
 
-Daily driver, high-mileage. Maintained on the Lexus factory owner's-manual schedule since purchase at ~60K mi. This repo's records start at ~130K — the 60K–130K stretch predates this documentation (no receipts logged here for that range yet).
+Daily driver, high-mileage. Maintained on the Lexus factory owner's-manual schedule since purchase at ~60K mi. Real receipts in this repo start at ~130K; the 60K–130K stretch below is filled in generically from the factory schedule, not from actual invoices.
+
+## Estimated History — 60K to 130K mi (Pre-Documentation)
+
+> ⚠️ Not receipt-confirmed. Filled in generically based on the Lexus factory "Normal" maintenance schedule, since maintenance followed the intervals for this whole stretch per the owner's account. Treat as a plausible baseline, not an actual record of dates or costs — replace any row here with real data if it turns up.
+
+| Item | Typical Interval | Presumed Status by 130K |
+|---|---|---|
+| Oil & filter change | Every 5,000 mi | ~14 changes over the 70K mi stretch |
+| Tire rotation | Every 5,000 mi | Done alongside oil changes |
+| Timing belt + water pump | 90,000 mi (Toyota/Lexus factory interval for the 1MZ-FE V6) | Presumed replaced ~90K mi |
+| Serpentine/drive belt | Inspected regularly, typically replaced 60K–90K mi | Presumed replaced within this range |
+| Cabin air filter | Every 15,000–30,000 mi | Presumed replaced ~4–5 times |
+| Engine air filter | Every 15,000–30,000 mi | Presumed replaced ~4–5 times |
+| Brake fluid | Every 30,000 mi / 3 years | Presumed flushed ~2–3 times |
+| Coolant | Toyota Super Long Life, ~100,000 mi interval | Possibly first done near the end of this range |
+| Automatic transmission fluid | No scheduled interval per the era's factory manual; many shops recommend ~60,000 mi preventively | Unknown whether serviced in this stretch |
+
+> **The one worth actually verifying: the timing belt.** The 1MZ-FE 3.3L V6 in this ES330 is an interference engine — if the belt was never actually replaced around 90K, that's a real risk sitting at 145K+ today, not just a documentation gap. If there's any record of this (an old invoice, a shop's memory, a sticker under the hood), it's worth tracking down to confirm either way.
 
 ## Repair History Log
 
