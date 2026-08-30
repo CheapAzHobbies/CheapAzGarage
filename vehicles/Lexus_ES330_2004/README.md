@@ -4,17 +4,24 @@
 
 Daily driver, high-mileage. Documented from ~130K to 145K+ miles.
 
-## Repair History Log (by RockAuto order)
+## Repair History Log
 
-| Date | Order # | Est. mileage | Service | Order total | Parts |
-|---|---|---|---|---|---|
-| TBD | TBD | ~130K | Starter motor replacement | $182.78 | [denso_starter_motor_2800345.md](parts/denso_starter_motor_2800345.md) |
-| 2024-02-21 | 265305047 | ~130K | 3× catalytic converters, 3× O2 sensors, 6× spark plugs | $1,299.45 | [parts/](parts) — `ap_eastern_catalytic_converter_*`, `denso_o2_sensor_*`, `denso_spark_plug_3297.md` |
-| 2025-03-08 | 302329365 | ~136K | Suspension: 2× KYB shock/strut, 2× strut mount, lift support | $289.93 | [parts/](parts) — `kyb_shock_strut_*`, `stabilus_lift_support_3b168774.md` |
-| 2025-06-13 | TBD | ~138K | Brake pads/rotors, transmission fluid, cabin + engine air filter, oil filter | $315.73 | [parts/](parts) — `aisin_transmission_fluid_atf0t4.md`, `akebono_brake_pad_*`, `bosch_cabin_air_filter_6056c.md`, `centric_rotor_*`, `denso_air_filter_1433003.md`, `mobil_oil_filter_m1102a.md` |
-| 2026-08-22 | 357616499 | ~145K | Transmission fluid top-off (2× Aisin ATF0T4) | $22.15 | [aisin_transmission_fluid_atf0t4_2026-08-22.md](parts/aisin_transmission_fluid_atf0t4_2026-08-22.md) |
+| Date | Order # | Source | Est. mileage | Service | Cost | Parts |
+|---|---|---|---|---|---|---|
+| TBD | TBD | RockAuto | ~130K | Starter motor replacement | $182.78 | [denso_starter_motor_2800345.md](parts/denso_starter_motor_2800345.md) |
+| 2024-02-21 | 265305047 | RockAuto | ~130K | 3× catalytic converters, 3× O2 sensors, 6× spark plugs | $1,299.45 | [parts/](parts) — `ap_eastern_catalytic_converter_*`, `denso_o2_sensor_*`, `denso_spark_plug_3297.md` |
+| 2025-03-08 | 302329365 | RockAuto | ~136K | Suspension: 2× KYB shock/strut, 2× strut mount, lift support | $289.93 | [parts/](parts) — `kyb_shock_strut_*`, `stabilus_lift_support_3b168774.md` |
+| 2025-06-13 | TBD | RockAuto | ~138K | Brake pads/rotors, transmission fluid, cabin + engine air filter, oil filter | $315.73 | [parts/](parts) — `aisin_transmission_fluid_atf0t4.md`, `akebono_brake_pad_*`, `bosch_cabin_air_filter_6056c.md`, `centric_rotor_*`, `denso_air_filter_1433003.md`, `mobil_oil_filter_m1102a.md` |
+| 2026-08-22 to 2026-08-30 | 357616499 (fluid) + eBay (pan/gasket) | RockAuto + eBay | ~145K | **Transmission pan service:** pan + gasket replaced, fluid changed (2× Aisin ATF0T4), filter replaced (part TBD) | $103.53 | [aisin_transmission_fluid_atf0t4_2026-08-22.md](parts/aisin_transmission_fluid_atf0t4_2026-08-22.md), [aisin_transmission_oil_pan.md](parts/aisin_transmission_oil_pan.md), [lexus_transmission_pan_gasket.md](parts/lexus_transmission_pan_gasket.md) |
 
-**Confirmed RockAuto total across these 5 orders: $2,110.04.** All five services originally mentioned (starter, cats/O2, suspension, brakes/trans fluid, trans fluid top-off) now have matching receipts.
+**Confirmed spend across these 5 services: $2,191.42** ($2,110.04 RockAuto + $81.38 eBay). All five services originally mentioned (starter, cats/O2, suspension, brakes/trans fluid, trans fluid) now have matching receipts — and the last one turned out to be a full pan-drop service, not a simple top-off.
+
+## On Hand — Not Yet Installed
+
+| Part | Cost | Purchased | Notes |
+|---|---|---|---|
+| Front axle oil seal, passenger — 90311-40028 | $18.62 | 2026-07-05 (eBay) | [parts file](parts/toyota_front_axle_oil_seal_90311-40028.md) — vehicle assignment is a best guess, confirm |
+| Front axle oil seal, driver — 90311-50052 | $24.90 | 2026-07-05 (eBay) | [parts file](parts/toyota_lexus_front_axle_oil_seal_90311-50052.md) |
 
 Estimated mileage per order is linearly interpolated between the Feb 2024 baseline (~130K) and the current ~145K (Aug 2026) — **not** actual odometer readings at time of purchase. Replace with real readings if you have them.
 
@@ -31,7 +38,7 @@ One file per ~3,000-mile checkpoint: standard maintenance items plus what's actu
 
 ## Parts
 
-One file per part purchased — see [`parts/`](parts). 21 parts logged across 5 confirmed orders.
+One file per part purchased — see [`parts/`](parts). 25 parts logged across 5 services (RockAuto + eBay).
 
 ## Known Issues & Diagnostics
 
@@ -42,8 +49,9 @@ One file per part purchased — see [`parts/`](parts). 21 parts logged across 5 
 ## Cost Analysis
 
 - ~15,000 miles documented (130K → 145K+).
-- $2,110.04 confirmed RockAuto spend ÷ ~15K mi ≈ **$141 / 1,000 miles**.
+- $2,191.42 confirmed installed spend (RockAuto + eBay) ÷ ~15K mi ≈ **$146 / 1,000 miles**.
+- Plus $43.52 in parts on hand but not yet installed (front axle seals) — not counted toward the per-mile figure above until they go in.
 
 ## Parts Sourcing
 
-All parts sourced from RockAuto. No coupon codes noted on these orders.
+Mostly RockAuto; two recent jobs (transmission pan/gasket, front axle seals) sourced from eBay instead. No coupon codes noted on any of these orders.

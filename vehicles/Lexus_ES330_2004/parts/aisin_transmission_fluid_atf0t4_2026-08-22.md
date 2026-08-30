@@ -13,4 +13,4 @@
 | Installed | ~2026-08-22 (assumed) |
 | Status | Installed |
 
-This is the "transmission fluid top-off" originally mentioned before a receipt was located — now confirmed. Order total incl. $7.99 shipping = $22.15. A separate ATF0T4 purchase (qty 8, $5.62 ea) was also made 2025-06-13 — see [`aisin_transmission_fluid_atf0t4.md`](aisin_transmission_fluid_atf0t4.md).
+This was originally logged as a standalone "transmission fluid top-off" — corrected: it's actually the fluid portion of a full transmission pan-drop service (pan + gasket + filter also replaced, done 2026-08-30). See [`aisin_transmission_oil_pan.md`](aisin_transmission_oil_pan.md) and [`lexus_transmission_pan_gasket.md`](lexus_transmission_pan_gasket.md). Order total incl. $7.99 shipping = $22.15. A separate ATF0T4 purchase (qty 8, $5.62 ea) was also made 2025-06-13 — see [`aisin_transmission_fluid_atf0t4.md`](aisin_transmission_fluid_atf0t4.md).
