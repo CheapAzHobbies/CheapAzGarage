@@ -14,7 +14,7 @@ Daily driver, high-mileage. Documented from 130K to 145K miles.
 | TBD (Feb 2024 – Aug 2026) | Brake service (pads + rotors) + transmission fluid | $315.73 | RockAuto | |
 | TBD (Feb 2024 – Aug 2026) | Transmission fluid top-off | $22.15 | RockAuto | |
 
-> Exact dates weren't captured — fill in from order history. **Itemized total: $2,145.85** vs. the **stated RockAuto order total of $2,015** — these don't reconcile exactly (~$131 gap). Worth checking actual order history rather than trusting either number blindly.
+> Exact dates weren't captured — fill in from order history. **Itemized total: $2,145.85** vs. the **stated RockAuto order total of $2,015** (~$131 gap). Most likely explanation: shipping/tax on the individual line items above vs. a parts-only figure for the stated total — RockAuto charges shipping per order, and 5 separate orders would add up. Unconfirmed; worth checking actual order history to be sure.
 
 ## Service Intervals
 
