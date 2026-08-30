@@ -1,8 +1,8 @@
 # 2004 Lexus ES330
 
-**Owner:** Bao · **VIN:** JTHBA30G245040608 · **Odometer ID:** CB01242 · **Engine:** 3.3L V6 · **Color:** Silver · **Mileage:** 145K+ mi (as of Aug 2026)
+**Owner:** Bao · **VIN:** JTHBA30G245040608 · **Odometer ID:** CB01242 · **Engine:** 3.3L V6 · **Color:** Silver · **Mileage:** 145K+ mi (as of Aug 2026) · **Owned since:** ~60K mi
 
-Daily driver, high-mileage. Documented from ~130K to 145K+ miles.
+Daily driver, high-mileage. Maintained on the Lexus factory owner's-manual schedule since purchase at ~60K mi. This repo's records start at ~130K — the 60K–130K stretch predates this documentation (no receipts logged here for that range yet).
 
 ## Repair History Log
 
@@ -27,7 +27,7 @@ Estimated mileage per order is linearly interpolated between the Feb 2024 baseli
 
 ## Interval Checklists
 
-One file per ~3,000-mile checkpoint: standard maintenance items plus what's actually confirmed done. See [`intervals/`](intervals).
+Maintenance follows the Lexus factory owner's-manual schedule. One file per ~3,000-mile checkpoint: standard maintenance items plus what's actually confirmed done. See [`intervals/`](intervals). The exact manual task list per interval (what's due at 5K vs. 15K vs. 30K, etc.) hasn't been transcribed in yet — the checklists currently list generic items (oil, rotation, filters, fluids) plus whatever's confirmed from real orders.
 
 | Mileage (est.) | Date | File |
 |---|---|---|
