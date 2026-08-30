@@ -2,9 +2,35 @@
 
 Personal family repo, but keeping the format consistent makes it usable years from now.
 
+## Vehicle folder naming
+
+`vehicles/<Make>_<Model>_<Year>` (e.g. `Lexus_ES330_2004`, `Toyota_Sienna_2003`). Include the trim/edition if the vehicle has a distinguishing one: `Ford_Transit_150_2018`, `Honda_Accord_2000_SpecialEdition`. Archive folders follow the same pattern.
+
 ## Adding a repair
 
-In the relevant `vehicles/<Vehicle>/README.md`, add a row to **Repair History Log** with date, service, cost, and source. If a new part number or vendor came up, add it to **Parts Inventory** too.
+1. Add a row to the vehicle's **Repair History Log** (date, order #, service, order total, link to the parts below).
+2. Add **one file per part** purchased in that order under `vehicles/<Vehicle>/parts/<brand>_<part-description>_<part-number>.md`. Template:
+
+   ```
+   | Field | Value |
+   |---|---|
+   | Part | ... |
+   | Brand | ... |
+   | Part # | ... |
+   | Qty | ... |
+   | Price | ... |
+   | Order date | ... |
+   | Order # | ... |
+   | Source | ... |
+   | Installed | (assume shortly after order date if the real install date isn't known — flag it as assumed) |
+   | Status | Installed |
+   ```
+
+3. If the vehicle has interval checklists (see below), add or update the relevant `intervals/<mileage>mi.md` file to mark the matching tasks done.
+
+## Interval checklists
+
+For vehicles with mileage tracked, `vehicles/<Vehicle>/intervals/` holds **one file per ~3,000-mile checkpoint** (e.g. `133000mi.md`), not per interval *type*. Each file lists standard maintenance tasks (oil/filter, tire rotation, fluid check, brake inspection, cabin/engine air filter, etc.) as a checklist with a Done column and a Date column, plus whatever was actually confirmed done from real orders. When the exact odometer reading at a service date isn't known, interpolate it from known checkpoints and say so — an estimated mileage beats no mileage.
 
 ## Images
 
@@ -20,4 +46,4 @@ Short imperative title, one-line body on why if it's not obvious. Push directly 
 
 ## When data is uncertain
 
-Leave it `TBD` and flag it — don't guess a VIN, plate, or part number. A wrong VIN in a maintenance record is worse than a blank one.
+Leave it `TBD` and flag it — don't guess a VIN, plate, or part number. A wrong VIN in a maintenance record is worse than a blank one. For dates that genuinely can't be pinned down (e.g. an install date vs. order date), an approximate date close enough in time is fine — just mark it as assumed/estimated rather than presenting it as exact.

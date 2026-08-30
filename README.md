@@ -18,8 +18,8 @@ Cost-conscious, DIY-first documentation. If it's cheaper at RockAuto than the de
 | Vehicle | Owner | Status |
 |---|---|---|
 | 2004 Lexus ES330 | Bao | Active — 145K+ mi |
-| Ford Transit 150 | Bao | Active |
-| Toyota Sienna | Family | Active |
+| 2018 Ford Transit 150 | Bao | Active |
+| 2003 Toyota Sienna | Family | Active |
 | Honda Odyssey EV Conversion | Family ("Justine's van") | In-progress build |
 
 Full details, VINs, and plates: [`VEHICLE-INVENTORY.md`](VEHICLE-INVENTORY.md).
@@ -27,8 +27,10 @@ Full details, VINs, and plates: [`VEHICLE-INVENTORY.md`](VEHICLE-INVENTORY.md).
 ## Folder layout
 
 ```
-vehicles/<VehicleName>/README.md   — service intervals, parts inventory, repair log, known issues, cost analysis
-archive/<VehicleName>/README.md    — retired vehicle record (ID + final status only)
+vehicles/<Make>_<Model>_<Year>/README.md    — overview, repair history log, cost analysis, known issues
+vehicles/<Make>_<Model>_<Year>/parts/       — one file per part purchased (brand, part #, price, order, install date)
+vehicles/<Make>_<Model>_<Year>/intervals/   — one file per ~3,000-mile checkpoint, task checklist with done/date
+archive/<Make>_<Model>_<Year>/README.md     — retired vehicle record (ID + final status only)
 ```
 
 ## Using this on a phone
