@@ -9,6 +9,8 @@ Daily driver, high-mileage. Maintained on the Lexus factory owner's-manual sched
 | Item | Value |
 |---|---|
 | Key fob battery | CR2016 |
+| Transmission fluid | ATF Type T-IV (Toyota/Aisin Type 4) — matches the Aisin ATF0T4 already used in the pan service, see [`parts.md`](parts.md) |
+| Engine oil | 5W-30, API SM or later — factory spec for the 1MZ-FE 3.3L V6, standard across 2002–2006 Toyota/Lexus V6 (Camry, ES330, Solara). Not receipt-confirmed for this specific car — worth checking the oil filler cap or owner's manual to be sure before the next oil change. |
 
 ## Estimated History — 60K to 130K mi (Pre-Documentation)
 
