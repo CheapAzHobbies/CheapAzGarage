@@ -4,6 +4,12 @@
 
 Daily driver, high-mileage. Maintained on the Lexus factory owner's-manual schedule since purchase at ~60K mi. Real receipts in this repo start at ~130K; the 60K–130K stretch below is filled in generically from the factory schedule, not from actual invoices.
 
+## Reference Notes
+
+| Item | Value |
+|---|---|
+| Key fob battery | CR2016 |
+
 ## Estimated History — 60K to 130K mi (Pre-Documentation)
 
 > ⚠️ Not receipt-confirmed. Filled in generically based on the Lexus factory "Normal" maintenance schedule, since maintenance followed the intervals for this whole stretch per the owner's account. Treat as a plausible baseline, not an actual record of dates or costs — replace any row here with real data if it turns up.
